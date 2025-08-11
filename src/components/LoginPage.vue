@@ -2,13 +2,13 @@
   <div class="login-page">
     <div class="login-container">
       <div class="app-header">
-        <h1>🌟 Mood Journal</h1>
+        <h2>🌟 Mood Journal</h2>
         <p>Track your daily mood and write your story</p>
       </div>
       
       <div class="login-content">
         <div class="welcome-message">
-          <h2>Welcome!</h2>
+          <h3>Welcome!</h3>
           <p>Please sign in with your Google account to start tracking your mood and writing your daily journal.</p>
         </div>
         
