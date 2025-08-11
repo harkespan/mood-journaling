@@ -1,10 +1,10 @@
 <template>
   <div id="app">
-    <div v-if="!isLoggedIn" class="login-wrapper">
+    <div v-if="!isLoggedIn && $route.path !== '/terms'" class="login-wrapper">
       <LoginPage />
     </div>
     
-    <div v-else class="main-app">
+    <div v-else-if="isLoggedIn" class="main-app">
       <nav class="main-nav">
         <div class="nav-container">
           <div class="nav-brand">
@@ -38,6 +38,11 @@
       <main class="main-content">
         <router-view />
       </main>
+    </div>
+    
+    <!-- Terms of Service for non-authenticated users -->
+    <div v-else-if="$route.path === '/terms'" class="terms-wrapper">
+      <router-view />
     </div>
   </div>
 </template>
@@ -115,6 +120,10 @@ body {
 }
 
 .login-wrapper {
+  min-height: 100vh;
+}
+
+.terms-wrapper {
   min-height: 100vh;
 }
 
