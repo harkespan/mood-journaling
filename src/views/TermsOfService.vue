@@ -76,7 +76,7 @@
               <li>🔍 Melihat dan mempelajari kode sumber</li>
               <li>📝 Memodifikasi sesuai kebutuhan</li>
               <li>📤 Mendistribusikan ulang</li>
-              <li>💼 Menggunakan untuk keperluan komersial</li>
+              <li>💼 Menggunakan untuk keperluan komersial dengan mencantumkan sumber asli</li>
               <li>🤝 Berkontribusi pada pengembangan</li>
             </ul>
           </div>
