@@ -49,7 +49,6 @@
 </template>
 
 <script>
-import { analytics } from 'googleapis/build/src/apis/analytics'
 import LoginPage from './components/LoginPage.vue'
 import authService from './services/auth.js'
 import { Analytics } from '@vercel/analytics/vue'
